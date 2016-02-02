@@ -1,25 +1,35 @@
 ---
-dotfiles_repo: "https://github.com/opdavies/dotfiles.git"
+dotfiles_repo: "https://github.com/waako/dotfiles.git"
 dotfiles_repo_local_destination: "~/Code/Personal/dotfiles"
 dotfiles_files:
+  - .aliases
+  - .bash_profile
+  - .bash_prompt
+  - .bashrc
   - .composer/composer.json
-  - .composer/composer.lock
+  - .exports
+  - .functions
   - .gitconfig
-  - .gitignore-global
-  - .ideavimrc
+  - .gitconfig
+  - .gitignore
   - .osx
-  - .vimrc
+  - .wgetrc
 
 homebrew_taps:
   - caskroom/cask
   - caskroom/fonts
+  - caskroom/versions
+  - dinkypumpkin/get_iplayer
   - homebrew/dupes
   - homebrew/php
   - homebrew/services
+  - homebrew/versions
 
 homebrew_installed_packages:
+  - brew-cask
   - drupal-code-sniffer
   - fish
+  - get_iplayer
   - git-extras
   - git-flow
   - git-sh
@@ -32,42 +42,56 @@ homebrew_installed_packages:
   - wget
 
 homebrew_cask_apps:
-  - acquia-dev-desktop
+  - 1password
   - alfred
-  - appcleaner
-  - atom
-  - caffeine
-  - clamxav
+  - betterzipql
+  - burn
+  - cakebrew
+  - cheatsheet
+  - choosy
+  - cleanmymac
+  - crashplan
   - cyberduck
+  - daisydisk
+  - doxie
   - dropbox
-  - filezilla
+  - fantastical
   - firefox
+  - fluid
   - flux
-  - font-hack
+  - ghostlab
   - gitx
   - google-chrome
+  - google-chrome-beta
+  - google-chrome-canary
   - google-drive
-  - gpgtools
-  - hipchat
+  - imageoptim
   - iterm2
-  - keepassx
-  - lastpass
-  - moom
-  - opera
+  - kaleidoscope
+  - launchrocket
+  - linkinus
+  - nylas-n1
+  - qlcolorcode
+  - qlmarkdown
+  - qlprettypatch
+  - qlstephen
+  - quicklook-csv
+  - quicklook-json
+  - rescuetime
   - sequel-pro
   - skype
-  - slack
-  - sourcetree
-  - spotify
-  - teamviewer
-  - textwrangler
-  - phpstorm
-  - textual
+  - spectacle
+  - sublime-text3
+  - suspicious-package
   - the-unarchiver
-  - tunnelblick
+  - toggldesktop
+  - trello-x
   - vagrant
   - virtualbox
+  - viscosity
   - vlc
+  - webp-quicklook (!)
+  - xscope
 
 ruby_install_gems:
   - grunt
